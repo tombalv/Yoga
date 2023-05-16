@@ -32,10 +32,15 @@ body {
     font-size: 19px;
     text-decoration: none;
     color: black;
+    border-bottom: 2px solid transparent;
   }
 
   .menu-link:hover {
-    text-decoration: underline;
+    border-bottom-color: #ff4622;
+  }
+
+  .active {
+    border-bottom-color: #ff4622
   }
 
   /* MAIN CONTENT */
